@@ -1,5 +1,5 @@
-# Movies_app_3_Tier
-Deploying a 3-Tier Architecture in AWS using Terraform
+# Movies_app
+Deploying a dockerized Website using Flask and MongoDB in AWS using Terraform
 
 # Prerequisites
 
@@ -33,3 +33,4 @@ Deploying a 3-Tier Architecture in AWS using Terraform
 12. ASG
 
 # Architecture:
+![_דיאגרמה MOvies Project_ drawio (1)](https://user-images.githubusercontent.com/26095774/187089411-50da5936-198a-49db-96bd-401767462c43.png)
