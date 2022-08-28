@@ -14,7 +14,7 @@ Deploying a dockerized Website using Flask and MongoDB in AWS using Terraform
 
 3. 2 Private Subnet (Private)
 
-4. 2 EC2 Instances
+4. 2 EC2 Instances for Production + 1 EC2 Bastion for SSH access
 
 5. 4 Security Groups
 
@@ -30,7 +30,7 @@ Deploying a dockerized Website using Flask and MongoDB in AWS using Terraform
 
 11. Apache Webserver
 
-12. ASG
+12. Auto scaling group + cloudwatch metrics
 
 # Architecture:
 ![_דיאגרמה MOvies Project_ drawio (1)](https://user-images.githubusercontent.com/26095774/187089411-50da5936-198a-49db-96bd-401767462c43.png)
