@@ -29,6 +29,8 @@ Terraform was used to initialize and bring the entire architecture up in AWS Clo
 
 # Demo:
 
+https://user-images.githubusercontent.com/26095774/204566665-f3670803-70ce-446b-ae1f-6669da51556f.mov
+
 # Flow Chart:
 
 ![ProjectFlowChart](https://user-images.githubusercontent.com/82024584/168774364-a427dfd5-a9c2-4581-9c18-71531f6dbb0b.PNG)
