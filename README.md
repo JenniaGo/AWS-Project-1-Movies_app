@@ -3,34 +3,26 @@ Deploying a dockerized Website using Flask and MongoDB in AWS using Terraform
 
 # Prerequisites
 
-1) TMDB API key - open an account at this link https://www.themoviedb.org/signup
+1) TMDB API key - open an account (at this link https://www.themoviedb.org/signup) and get token api key
 2) AWS AMI credentials configured
+3) Add the api key to the User_Data file
 
-# Resources to be created
+# Summary:
+The Web App gives the users the option to search posters and having the option to download them.
 
-1. Custom VPC
+The Web App asks the user for a movie to search, after taking the input from the user the app displays all the movie names similar to what the user searched and their corresponding poster images.
 
-2. 2 Public Subnets (Public)
+Then the user gets the choice to select posters he wants to download.
 
-3. 2 Private Subnet (Private)
+Python Flask Library provides the routing, HTML provides the Frontend UI.
 
-4. 2 EC2 Instances for Production + 1 EC2 Bastion for SSH access
+MongoDB is the local BackEnd Database.
 
-5. 4 Security Groups
+AWS is the cloud provider where the Web App is hosted on.
 
-6. Elastic IP
+Docker Containers were used on EC2 to isolate the frontend and backend apps.
 
-7. 2 NAT Gateway
-
-8. Internet Gateway
-
-9. 2 Route Tables
-
-10. Application Load Balancer
-
-11. Apache Webserver
-
-12. Auto scaling group + cloudwatch metrics
+Terraform was used to initialize and bring the entire architecture up in AWS Cloud.
 
 # Architecture:
 ![_דיאגרמה MOvies Project_ drawio (1)](https://user-images.githubusercontent.com/26095774/187089411-50da5936-198a-49db-96bd-401767462c43.png)
