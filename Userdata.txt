@@ -8,7 +8,7 @@ sudo yum install git -y
 
 #Cloning the git repository
 cd /home/ec2-user/
-sudo git clone https://github.com/Shaked98/WebApp.git
+sudo git clone https://github.com/JenniaGo/Movie_Posters_Webapp.git
 
 #changing dir ownership
 sudo chown ec2-user /home/ec2-user/WebApp
