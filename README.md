@@ -36,5 +36,5 @@ https://user-images.githubusercontent.com/26095774/204566665-f3670803-70ce-446b-
 ![ProjectFlowChart](https://user-images.githubusercontent.com/82024584/168774364-a427dfd5-a9c2-4581-9c18-71531f6dbb0b.PNG)
 
 
-# V2 Architecture: (Coming soon, December 2022)
+# V2 Architecture: (Coming soon)
 ![_דיאגרמה MOvies Project_ drawio (1)](https://user-images.githubusercontent.com/26095774/187089411-50da5936-198a-49db-96bd-401767462c43.png)
